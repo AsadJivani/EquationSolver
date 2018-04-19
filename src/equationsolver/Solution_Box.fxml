@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+
+
+<JFXTextArea fx:id="solution_box" prefHeight="415.0" prefWidth="327.0" visible="false" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="equationsolver.Solution_BoxController" />

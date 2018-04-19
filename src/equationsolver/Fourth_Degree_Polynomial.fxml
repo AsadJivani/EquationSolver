@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="85.0" prefWidth="454.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="equationsolver.FXMLDocumentController">
+   <children>
+      <JFXTextField alignment="BOTTOM_CENTER" layoutX="7.0" layoutY="13.0" prefHeight="40.0" prefWidth="42.0" promptText="a">
+         <font>
+            <Font size="14.0" />
+         </font></JFXTextField>
+      <Label alignment="BOTTOM_CENTER" layoutX="40.0" layoutY="38.0" prefHeight="22.0" prefWidth="36.0" text="X1">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField alignment="BOTTOM_CENTER" labelFloat="true" layoutX="65.0" layoutY="4.0" prefHeight="30.0" prefWidth="24.0">
+         <font>
+            <Font size="14.0" />
+         </font></JFXTextField>
+      <Label alignment="BOTTOM_CENTER" layoutX="75.0" layoutY="37.0" prefHeight="22.0" prefWidth="44.0" text="+">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <JFXTextField alignment="BOTTOM_CENTER" layoutX="108.0" layoutY="13.0" prefHeight="40.0" prefWidth="42.0" promptText="b">
+         <font>
+            <Font size="14.0" />
+         </font></JFXTextField>
+      <Label alignment="BOTTOM_CENTER" layoutX="139.0" layoutY="38.0" prefHeight="22.0" prefWidth="36.0" text="X2">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField alignment="BOTTOM_CENTER" layoutX="166.0" layoutY="4.0" prefHeight="30.0" prefWidth="24.0">
+         <font>
+            <Font size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField alignment="BOTTOM_CENTER" layoutX="206.0" layoutY="14.0" prefHeight="40.0" prefWidth="42.0" promptText="c">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <Label alignment="BOTTOM_CENTER" layoutX="238.0" layoutY="39.0" prefHeight="22.0" prefWidth="36.0" text="X3">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField alignment="BOTTOM_CENTER" layoutX="263.0" layoutY="4.0" prefHeight="30.0" prefWidth="24.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <Label alignment="BOTTOM_CENTER" layoutX="272.0" layoutY="38.0" prefHeight="22.0" prefWidth="44.0" text="+">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <JFXTextField alignment="BOTTOM_CENTER" layoutX="304.0" layoutY="14.0" prefHeight="40.0" prefWidth="42.0" promptText="d">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <Label alignment="BOTTOM_CENTER" layoutX="337.0" layoutY="39.0" prefHeight="22.0" prefWidth="36.0" text="X4">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField alignment="BOTTOM_CENTER" layoutX="364.0" layoutY="4.0" prefHeight="30.0" prefWidth="24.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <Label alignment="BOTTOM_CENTER" layoutX="374.0" layoutY="37.0" prefHeight="22.0" prefWidth="44.0" text="=">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <JFXTextField alignment="BOTTOM_CENTER" layoutX="405.0" layoutY="14.0" prefHeight="40.0" prefWidth="42.0" promptText="e">
+         <font>
+            <Font size="14.0" />
+         </font></JFXTextField>
+      <Label alignment="BOTTOM_CENTER" layoutX="174.0" layoutY="38.0" prefHeight="22.0" prefWidth="44.0" text="+">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

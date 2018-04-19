@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="281.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="equationsolver.MenuController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="281.0" text="Equation Solver" textAlignment="JUSTIFY" textFill="#ae3737" wrapText="true">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <TreeTableView fx:id="tableview" editable="true" focusTraversable="false" onContextMenuRequested="#mouseClick" onMouseClicked="#mouseClick" prefHeight="691.0" prefWidth="281.0">
+        <columns>
+          <TreeTableColumn fx:id="col" editable="false" prefWidth="279.0" sortable="false" text="C1" />
+        </columns>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </TreeTableView>
+   </children>
+</VBox>
